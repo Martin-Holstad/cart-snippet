@@ -6,7 +6,7 @@
 
 Welcome to the Cart Snippet! This React-based project showcases an interactive cart, allowing users to add, remove, and change the quantity of products.
 
-[Link to VikingFjord website](https://vikingfjord.netlify.app/)
+[Link to Cart Snippet website](https://cart-snippet.netlify.app/)
 
 ## Features
 
