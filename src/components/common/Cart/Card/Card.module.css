@@ -1,0 +1,45 @@
+.card {
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: 80px 1fr 30px;
+  grid-template-rows: 80px;
+  justify-content: space-between;
+  background-color: #ffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.priceWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.price {
+  font-size: 14px;
+}
+
+.discountPrice {
+  text-decoration: line-through;
+  color: red;
+}

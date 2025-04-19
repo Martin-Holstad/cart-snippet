@@ -1,0 +1,22 @@
+.quantityWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+}
+
+.increaseButton,
+.decreaeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgb(190, 190, 190);
+}
+
+.increaseButton:active,
+.decreaeButton:active {
+  background-color: rgb(160, 160, 160);
+}

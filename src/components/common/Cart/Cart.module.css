@@ -1,0 +1,36 @@
+.cart {
+  position: fixed;
+  right: -400px;
+  top: 50px;
+  height: 100vh;
+  width: 300px;
+  background-color: #e6e6e6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow-y: auto;
+  z-index: 2;
+  transition: right 0.4s ease-in-out;
+}
+
+.cart.active {
+  right: 0;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.emptyCartMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  color: #948f8f;
+}
+
+@media only screen and (max-width: 350px) {
+  .cart {
+    width: 100%;
+  }
+}

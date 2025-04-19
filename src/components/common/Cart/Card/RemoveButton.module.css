@@ -1,0 +1,12 @@
+.removeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgb(179, 0, 0);
+}
+
+.removeButton:active {
+  background-color: rgb(163, 1, 1);
+}
