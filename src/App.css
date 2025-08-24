@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #bfa380;
+}
+
+body {
+  margin: 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0px;
+}
